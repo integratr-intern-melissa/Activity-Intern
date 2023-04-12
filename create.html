@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Sports</title>
+</head>
+<body>
+<div class="container">
+    <form id="form-control">
+   <input type="text" id="fname" placeholder="Firstname">
+   <input type="text" id="mname" placeholder="Middlename">
+   <input type="text" id="lname" placeholder="Lastname">
+</div>
+</form>
+<div class="containers">
+<p>Sports</p>
+<div><input type="checkbox" id="Basketball" value="Basketball" class="checkbox sports">Basketball</div>
+<div><input type="checkbox" id="Volleyball" value="Volleyball" class="checkbox sports">Volleyball</div>
+<div><input type="checkbox" id="Badminton" value="Badminton" class="checkbox sports">Gymnastics</div>
+<div><input type="checkbox" id="Soccer" value="Soccer" class="checkbox sports">Billiards</div>
+<div><input type="checkbox" id="Baseball" value="Baseball" class="checkbox sports">Bowling</div>
+<div><input type="checkbox" id="Tennis" value="Tennis" class="checkbox sports">Chess</div>
+<div><input type="checkbox" id="Surfing" value="Surfing" class="checkbox sports">Cheerleading</div>
+</div>
+<br></br>
+<button type="submit" class="btn" onclick="onSubmit()">Submit</button>
+<br></br>
+<div class="result">
+<p>Fullname:</p>
+<div id="fullname"></div>
+<div>Sports<br></br> <span id="sports"></span></div>
+</div>
+</form>
+</body>
+<script src="script.js"></script>
+</html>
